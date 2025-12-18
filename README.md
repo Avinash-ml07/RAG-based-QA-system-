@@ -18,9 +18,7 @@
 - [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
 - [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+
 
 ---
 
@@ -199,29 +197,7 @@ rag_system/
 - Deploy mixture-of-experts LLMs for complex reasoning tasks
 - Role-based access controls and enhanced compliance logging
 
----
 
-## Contributing
-Contributions are very welcome! If you:
-- Find bugs
-- Want to improve code or docs
-- Add new features
-
-please open issues or submit pull requests. Ensure tests pass and code style matches existing code.
-
----
-
-## License
-This project is licensed under the MIT License.
-
----
-
-## Acknowledgements
-Inspired by the HackRx 6.0 challenge
-Thanks to the open-source community for FastAPI, Hugging Face Transformers, Pinecone, and related tools
-
-
-Happy coding! 🚀 Feel free to raise issues or contact for help.
 
 
 
