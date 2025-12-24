@@ -3,3 +3,6 @@ uvicorn
 python-dotenv
 PyMuPDF
 python-multipart
+sentence-transformers
+faiss-cpu
+numpy
