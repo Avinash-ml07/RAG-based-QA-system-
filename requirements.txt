@@ -1,22 +1,3 @@
 fastapi
-uvicorn 
-pytesseract
-pdfminer.six
-python-docx
-sentence-transformers
-pinecone
-spacy
-rank_bm25
-torch
-transformers
-opencv-python
-unstructured
-tiktoken
-boto3
-textractor
-numpy
-scikit-learn
+uvicorn
 python-dotenv
-PyMuPDF
-python-multipart
-en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
