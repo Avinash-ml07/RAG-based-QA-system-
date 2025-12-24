@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PolicyGPT</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>PolicyGPT</h1>
+  <p class="subtitle">Health Policy Question Answering System</p>
+
+  <!-- Upload Section -->
+  <section>
+    <h2>Upload Health Policy</h2>
+    <input type="file" id="policyFile" />
+    <button onclick="uploadPolicy()">Upload</button>
+    <p id="uploadStatus"></p>
+  </section>
+
+  <!-- Query Section -->
+  <section>
+    <h2>Ask a Question</h2>
+    <input
+      type="text"
+      id="queryInput"
+      placeholder="e.g. Does the company cover hospital expenses for minor accidents?"
+    />
+    <button onclick="askQuestion()">Ask</button>
+    <p id="queryStatus"></p>
+  </section>
+
+  <!-- Answer Section -->
+  <section>
+    <h2>Answer</h2>
+    <div id="answerBox"></div>
+
+    <h3>Sources (Retrieved Policy Sections)</h3>
+    <ul id="sourcesList"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
